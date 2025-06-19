@@ -10,19 +10,6 @@ A minimalist authentication backend in Go providing **user sign-up** and **login
 - JWT generation for authenticated sessions
 - Basic request validation and error handling
 
-## 📁 Project Structure
-.
-├── cmd/
-│ └── main.go # Entry point: sets up the HTTP server and routes
-├── internal/
-│ ├── auth/ # JWT and password hashing logic
-│ ├── handlers/ # Request handlers (signup, login)
-│ └── models/ # User model definitions
-├── middleware/ # Authentication middleware (validates JWT)
-├── go.mod
-└── README.md
-
-
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
